@@ -80,3 +80,9 @@ const MainPageVideo = props => {
   )
 }
 ```
+
+## Thanks
+
+The video and aspect ratio components are based on these:
+
+https://github.com/simonyiszk/konferencia-web-2018/

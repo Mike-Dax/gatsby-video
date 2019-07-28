@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import React from 'react'
 
 const AspectRatioBox = ({
@@ -38,11 +37,5 @@ const AspectRatioBox = ({
     </div>
   </div>
 )
-
-AspectRatioBox.propTypes = {
-  aspectRatio: PropTypes.number.isRequired,
-  children: PropTypes.node.isRequired,
-  className: PropTypes.string,
-}
 
 export default AspectRatioBox

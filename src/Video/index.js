@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import React from 'react'
 import AspectRatioBox from './../AspectRatioBox'
 
@@ -33,18 +32,12 @@ const Video = ({ poster, className, sources, ...props }) => {
           poster={transparentPixelSrc}
         >
           {sources.map(s => (
-            <source src={s.src} type={`video/${s.fileExtension}`}></source>
+            <source key={s.src} src={s.src} type={`video/${s.fileExtension}`} />
           ))}
         </video>
       </div>
     </AspectRatioBox>
   )
-}
-
-Video.propTypes = {
-  aspectRatio: PropTypes.number.isRequired,
-  poster: PropTypes.string,
-  className: PropTypes.string,
 }
 
 export default Video

@@ -1,7 +1,7 @@
 {
   "name": "gatsby-video",
   "description": "Gatsby video plugin that consumes video from gatsby-transformer-ffmpeg",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Michael Orenstein <mike@whiteshadows.me>",
   "bugs": {
     "url": "https://github.com/Mike-Dax/gatsby-video/issues"

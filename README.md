@@ -1,6 +1,6 @@
 # gatsby-video
 
-A basic video component that consumes `gatsby-transformer-ffmpeg` locally hosted videos.
+A basic video component that consumes `gatsby-transformer-ffmpeg` locally hosted videos. It forwards its ref.
 
 ## Install
 

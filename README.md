@@ -17,7 +17,7 @@ module.exports = {
 
 Create a pageQuery or static query to grab the video you're interested in.
 
-```
+```javascript
 export const pageQuery = graphql`
   {
     file(relativePath: { eq: "features/arc-init.mov" }) {
@@ -61,7 +61,7 @@ export const pageQuery = graphql`
 
 Grab the data in your component and then pass it to the video component.
 
-```
+```javascript
 
 import { Video } from 'gatsby-video'
 import poster_image from './poster.png'

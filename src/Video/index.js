@@ -24,7 +24,7 @@ const Video = React.forwardRef(
         >
           <video
             className={className}
-            preload
+            preload="true"
             style={{
               width: '100%',
               height: '100%',
@@ -33,7 +33,7 @@ const Video = React.forwardRef(
             poster={transparentPixelSrc}
             ref={ref}
           >
-            {sources.map(s => (
+            {sources.map((s) => (
               <source
                 key={s.src}
                 src={s.src}
